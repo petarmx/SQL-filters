@@ -1,4 +1,4 @@
-text
+
 # 🔍 SQL Security Investigation Project  
 *Cybersecurity Portfolio | 21th June 2025*
 
