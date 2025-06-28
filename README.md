@@ -85,22 +85,9 @@ text
 
 ---
 
-## 📈 Project Impact
-
-- Reduced brute-force attacks by 62% through time-based restrictions
-- Accelerated incident response time by 38% with focused monitoring
-- Improved employee security compliance from 45% to 82% in 3 months
-
----
-
 ## 💻 Technical Skills Demonstrated
 
 - **SQL Filtering:** `AND`, `OR`, `NOT` operators
 - **Data Analysis:** Pattern recognition in security logs
 - **Risk Prioritization:** Department-based threat modeling
 - **Access Control:** Principle of least privilege enforcement
-
----
-
-> "This project demonstrated how SQL transforms raw logs into actionable security intelligence. By strategically filtering data, we turned reactive monitoring into proactive threat hunting."  
-> *— Security Team Reflection*
