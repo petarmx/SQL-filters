@@ -21,7 +21,6 @@ FROM log_in_attempts
 WHERE success = FALSE
 AND (login_time < '08:00:00' OR login_time > '18:00:00');
 
-text
 **Purpose:** Detected potential brute-force attacks outside business hours.
 
 ### 2. Targeted Date Login Activity  
@@ -29,7 +28,6 @@ SELECT *
 FROM log_in_attempts
 WHERE login_date = '2025-05-01' OR login_date = '2025-05-02';
 
-text
 **Purpose:** Investigated suspicious activity around specific high-risk dates.
 
 ### 3. Non-Mexico Access Attempts  
@@ -37,7 +35,6 @@ SELECT *
 FROM log_in_attempts
 WHERE country != 'Mexico';
 
-text
 **Purpose:** Flagged potential unauthorized access from unexpected locations.
 
 ### 4. Marketing Department Employees  
@@ -45,7 +42,6 @@ SELECT *
 FROM employees
 WHERE department = 'Marketing';
 
-text
 **Purpose:** Segmented sensitive department for access review.
 
 ### 5. Finance/Sales Employees  
@@ -53,7 +49,6 @@ SELECT *
 FROM employees
 WHERE department = 'Finance' OR department = 'Sales';
 
-text
 **Purpose:** Prioritized high-risk financial departments for credential checks.
 
 ### 6. Non-IT Employees  
@@ -61,7 +56,6 @@ SELECT *
 FROM employees
 WHERE department != 'IT';
 
-text
 **Purpose:** Identified non-technical staff needing security training.
 
 ---
